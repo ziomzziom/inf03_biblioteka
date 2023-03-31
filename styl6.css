@@ -1,0 +1,55 @@
+.baner{
+    background-color: #993333;
+    color: white;
+    text-align: center;
+    height: 80px;
+}
+
+.pierwszy,.drugi,.trzeci,.czwarty{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:  #CC6666;
+    color: white;
+    text-align: center;
+    width: 25%;
+    height: 150px;
+    float: left;
+}
+
+.lewy,.prawy{
+    background-color:  #CC9999;
+    width: 40%;
+    height: 550px;
+    text-align: center;
+}
+
+.lewy{
+    float: left;
+}
+.prawy{
+    float: right;
+}
+
+.srodkowy{
+    background-color: #FFCCCC;
+    width: 20%;
+    height: 550px;
+    float: left;
+}
+
+.stopka{
+    background-color: #993333;
+    color: white;
+    text-align: right;
+}
+
+table{
+    border: #993333 dotted 1px;
+    width: 100%;
+}
+
+input[type=submit]{
+    border: none;
+    background-color: red;
+    padding: 20px;
+    color: white;
+}
